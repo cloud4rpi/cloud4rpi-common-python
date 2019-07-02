@@ -22,11 +22,11 @@ def ip_address():
     return '8.8.8.8'
 
 
-def hostname():
+def host_name():
     return 'hostname'
 
 
-def osname():
+def os_name():
     return 'osx'
 
 
@@ -34,8 +34,9 @@ def osname():
 # sign up at https://cloud4rpi.io and create a device.
 DEVICE_TOKEN = '__YOUR_DEVICE_TOKEN__'
 
-# Constants
-DATA_SENDING_INTERVAL = 30  # secs
+# Decrease this value for testing purposes.
+DATA_SENDING_INTERVAL = 300  # secs
+
 DIAG_SENDING_INTERVAL = 60  # secs
 POLL_INTERVAL = 0.5  # secs
 
@@ -58,8 +59,8 @@ def main():
     diagnostics = {
         'CPU Temp': cpu_temp,
         'IP Address': ip_address,
-        'Host Name': hostname,
-        'Operating System': osname
+        'Host Name': host_name,
+        'Operating System': os_name
     }
 
     device = cloud4rpi.connect(DEVICE_TOKEN)
