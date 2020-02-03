@@ -14,7 +14,7 @@ Cloud4RPi Common Examples
     ```
 2. Install the Cloud4RPi client library:
     ```bash
-     sudo pip3 install cloud4rpi
+    sudo pip3 install cloud4rpi
     ```
 3. Clone this repository:
     ```sh
