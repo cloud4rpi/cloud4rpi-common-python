@@ -18,13 +18,13 @@ Cloud4RPi Common Examples
     ```
 3. Clone this repository:
     ```sh
-    git clone https://github.com/cloud4rpi/cloud4rpi-raspberrypi-python.git && cd cloud4rpi-raspberrypi-python
+    git clone https://github.com/cloud4rpi/cloud4rpi-common-python.git && cd cloud4rpi-common-python
     ```
 4. [Log into your Cloud4RPi account](https://cloud4rpi.io/signin) or [create a new one](https://cloud4rpi.io/register).
 5. Copy [your device](https://cloud4rpi.io/devices)'s **Device Token**. If you have no devices, create one on the [Devices](https://cloud4rpi.io/devices) page and copy its **Device Token**.
-6. Replace the `__YOUR_DEVICE_TOKEN__` string in the [control.py](https://github.com/cloud4rpi/cloud4rpi-raspberrypi-python/blob/master/control.py) file with your device token using any text editor (**nano**, **vim**, **sed** or other):
+6. Replace the `__YOUR_DEVICE_TOKEN__` string in the [minimal.py](https://github.com/cloud4rpi/cloud4rpi-common-python/blob/master/minimal.py) file with your device token using any text editor (**nano**, **vim**, **sed** or other):
     ```sh
-    sed -i 's/__YOUR_DEVICE_TOKEN__/replace-this-text-with-your-real-device-token/' control.py
+    sed -i 's/__YOUR_DEVICE_TOKEN__/replace-this-text-with-your-real-device-token/' minimal.py
     ```
 7. Run the [minimal.py](minimal.py) example:
     ```sh
