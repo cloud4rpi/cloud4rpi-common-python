@@ -34,10 +34,9 @@ def os_name():
 # sign up at https://cloud4rpi.io and create a device.
 DEVICE_TOKEN = '__YOUR_DEVICE_TOKEN__'
 
-# Decrease this value for testing purposes.
-DATA_SENDING_INTERVAL = 300  # secs
-
-DIAG_SENDING_INTERVAL = 60  # secs
+# Change these values depending on your requirements.
+DATA_SENDING_INTERVAL = 60  # secs
+DIAG_SENDING_INTERVAL = 650  # secs
 POLL_INTERVAL = 0.5  # secs
 
 
